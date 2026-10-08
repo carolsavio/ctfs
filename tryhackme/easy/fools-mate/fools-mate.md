@@ -80,7 +80,7 @@ Esta foi a parte mais demorada, e tive que estudar mais sobre o `curl`. O que me
 ![Requisição no Burp Suite](screenshots/06-burp1.png)
 ![Mensagem de erro no Burp Suite](screenshots/07-burp2.png)
 
-> 
+> Durante a enumeração, anotei o endpoint **`/api/move`**, que aparece na aba **Network** do DevTools: a cada jogada, o navegador envia uma requisição **POST** para ele.
 
 O comando final foi:
 
